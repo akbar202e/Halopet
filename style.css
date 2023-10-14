@@ -426,6 +426,54 @@ li > i:hover{
 .tutor{
     background-color: #F5F9EB;
     height: 50vh;
-    padding: 0 5% 0;
-        
+    padding: 0 5% 0;       
+}
+
+.petshop{
+    background-color: #F2FFE24D;
+    height: 105vh;
+    padding: 40px 0 0;
+}
+
+.petshop p:nth-child(1)
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.artikel{
+    background-color: #F2FFE24D;
+    height: 100vh;
+    padding: 40px 0 700px;
+}
+
+.container img{
+    display: flex;
+    align-self: center;
+}
+
+.artikel .container p{
+    font-size: 20px;
+    color: #4e4e4e;
+}
+
+.isiArtikel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 60px 0;
+}
+.auth{
+    
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 40px 10px;
+}
+
+.container p{
+    font-size: 14px;
 }
