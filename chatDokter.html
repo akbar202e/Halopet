@@ -6,40 +6,101 @@
     <link rel="stylesheet" href="bootstrap-5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="fontawesome/all.js"></script>
     <title>Document</title>
 </head>
 <body>
-<!-- header -->
+  <!-- header -->
+            <div class="container">
+                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+                    <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+                      <img src="src/logo.png" class="logo" alt="logo">
+                    </a>
+                  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <div style="border: 1px solid black;display: flex; align-items: center;padding: 5px 9px 5px; border-radius: 30px; width:400px;margin: 15px;">
+                    <input class="search-bar" type="search" placeholder="Cari dokter, Klinik hewan">
+                    <button type="submit" style="border: 0;border-radius: 50%;width: 40px;height: 40px;background: #a3be58;cursor: pointer;"> <img src="src/search.png" alt="" style="width: 20px; display: flex; margin-left: 3px;"></button>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                    <li><a href="home.html"><button class="HeaderBut">Beranda</button></a></li>
+                    <li><a href="aboutus.html"><button class="HeaderBut">Tentang Kami</button></a></li>
+                    <li><a href=""><button class="HeaderBut">Artikel</button></a></li>
+                    <li><a href=""><button class="HeaderBut">Hubungi Kami</button></a></li>
+                    <li style="margin-left: 150px;"><i class="bi bi-person-circle" style="font-size: 40px;color: #acacac;"></i></li>
+                    </div>
+                  </ul>
+                </header>
+              </div>
 
-  <div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
-        <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
-          <img src="src/logo.png" class="logo" alt="logo">
-        </a>
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <!-- <li>
-        <form class="d-flex" role="search">
-            <div style="display: flex;background-color:white ;padding: 10px;border: 1px solid black; border-radius: 30px;">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border: none;background-color: unset; border-radius: 30px;">
-            <button class="btn btn-outline-success" style="border-radius: 100%;"><i class="bi bi-search"></i></button>
+  <!-- Content -->
+        <section id="dokter">
+          <div class="container">
+            <div class="dokter-desc">
+                <p>Rekomendasi Dokter Hewan</p>
+                <p>Konsultasi dengan dokter siaga kami</p>
             </div>
-        </form></li> -->
-        <div style="border: 1px solid black;display: flex; align-items: center;padding: 5px 20px 5px; border-radius: 30px; width:400px;margin: 15px;">
-        <input type="search" placeholder="Cari dokter, Klinik hewan">
-        <button class="btn btn-success" style="border-radius: 50%; width: auto; margin: 1%;"><i class="bi bi-search"></i></button>
-        </div>
-        <div style="display: flex; align-items: center;">
-        <li><a href=""><button class="HeaderBut">Beranda</button></a></li>
-        <li><a href=""><button class="HeaderBut">Tentang Kami</button></a></li>
-        <li><a href=""><button class="HeaderBut">Artikel</button></a></li>
-        <li><a href=""><button class="HeaderBut">Hubungi Kami</button></a></li>
-        </div>
-      </ul>
-
-      
-      
-    </header>
-  </div>
-
+            <div class="container" style="padding: 20px 0 0;display: flex;flex-wrap: wrap;gap: 40px;margin-left: 60px;">
+              <div class="lisdokter">
+                <img src="src/p1.svg" alt="">
+                <div style="width: 100%;padding: 2%;">
+                  <p>Drh. Jonnatan Harry</p>
+                  <i class="bi bi-suitcase-lg"> 7 tahun</i>
+                  <i class="bi bi-hand-thumbs-up"> 100%</i>
+                  <div style="text-align: end;padding-top: 30px;">
+                    <a href="">Chat</a>
+                  </div>
+              </div>
+            </div>
+              <div class="lisdokter">
+                <img src="src/p1.svg" alt="">
+                <div style="width: 100%;padding: 2%;">
+                  <p>Drh. Jonnatan Harry</p>
+                  <i class="bi bi-suitcase-lg"> 7 tahun</i>
+                  <i class="bi bi-hand-thumbs-up"> 100%</i>
+                  <div style="text-align: end;padding-top: 30px;">
+                    <a href="">Chat</a>
+                  </div>
+              </div>
+            </div>
+              <div class="lisdokter">
+                <img src="src/p1.svg" alt="">
+                <div style="width: 100%;padding: 2%;">
+                  <p>Drh. Jonnatan Harry</p>
+                  <i class="bi bi-suitcase-lg"> 7 tahun</i>
+                  <i class="bi bi-hand-thumbs-up"> 100%</i>
+                  <div style="text-align: end;padding-top: 30px;">
+                    <a href="">Chat</a>
+                  </div>
+              </div>
+            </div>
+              <div class="lisdokter">
+                <img src="src/p1.svg" alt="">
+                <div style="width: 100%;padding: 2%;">
+                  <p>Drh. Jonnatan Harry</p>
+                  <i class="bi bi-suitcase-lg"> 7 tahun</i>
+                  <i class="bi bi-hand-thumbs-up"> 100%</i>
+                  <div style="text-align: end;padding-top: 30px;">
+                    <a href="">Chat</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="display: flex;justify-content: center;">
+            <button style="margin-left: -70px;margin-top: 40px;"> More <i class="bi bi-chevron-double-down"></i></button>
+            </div>
+          </section>
+          <div style="background-color: #F5F9EB;margin-top: 40px;">
+          <div class="container" style="padding: 40px 7% 30px 5%;">
+            <h><b>Cara Menghubungi Dokter Online</b><br>
+              Konsultasi dengan dokter Halopet secara online bisa dilakukan dengan cepat. Hanya dengan tiga langkah mudah kamu bisa terhubung dengan dokter hewan yang kamu butuhkan. Ada banyak dokter hewan yang bisa kamu hubungi 24 jam.<br>
+              <b>1. Langkah pertama:</b>
+              Pilih dari dokter-dokter terbaik yang tersedia, dan kirim permintaan untuk berbicara sesuai dengan kebutuhan atau keluhan kesehatan hewan peliharaan Anda.<br>
+              <b>2. Langkah kedua:</b>
+              Tunggu dokter. Dokter akan menyetujui permintaan kamu (biasanya dalam satu menit).<br>
+              <b>3. Langkah terakir:</b>
+              Bicara dengan dokter. Saat kamu telah terhubung dengan dokter, silahkan jelaskan kondisi hewan peliharaanmu dengan tenang dan jelas dengan tanya dokter halopet.</h>
+          </div>
+          </div>
 </body>
 </html>
