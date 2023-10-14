@@ -1,3 +1,7 @@
+body{
+    scroll-behavior: smooth;
+}
+
 
 .bgimg{
     background-image: url(src/bglogin.png);
@@ -9,6 +13,11 @@
 
 a{
     text-decoration: none;
+}
+
+.col-md-3  button:hover{
+    background-color: #1a6eed87;
+    transition: all 0.2s ease-in-out;
 }
 
 .logo{
@@ -82,6 +91,7 @@ a{
 
 .box-0:hover, .box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover{
     background-color:rgba(149, 174, 81, 0.401);
+    
 }
 
 .box-0 span,.box-1 span, .box-2 span, .box-3 span, .box-4 span{
@@ -238,13 +248,14 @@ a{
     margin-right: 3cm;
 }
   footer {
-    background-color: #ffffff;
-    padding: 0px;
+    border-top: 2px solid #00000018;
+    background-color: #82a3560c;
+    padding-top: 30px;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-left: 20px;
-    margin-top: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
 }
 
 .footer-col {
@@ -336,4 +347,85 @@ li a .HeaderBut{
     box-shadow: 0px 1px 50px 1px rgba(90, 132, 22, 0.2);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:600;    
+}
+
+header button:hover{
+    background-color: #cdd5b8ad;
+}
+
+li > i:hover{
+    cursor: pointer;
+}
+
+        
+.dokter-desc{
+    padding: 0 5% 0;
+        
+}
+.dokter-desc p:nth-child(1)
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.dokter-desc p:nth-child(2)
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:gray;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.container > .lisdokter{
+    padding: 5px 15px 0;
+    width: 529px;
+    height: 155px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F5F9EB;
+    display: flex;
+}
+
+.lisdokter img{
+    width: 90px;
+    align-self:center;
+    margin: 10px;
+    
+}
+
+.lisdokter:hover{
+    background-color: #e3f0c6;
+    transition: all 0.2s ease-in-out;
+}
+
+.lisdokter i{
+    background-color: #B4D2608F;
+    padding: 0 20px 0;
+    margin-right: 20px;
+    font-style: normal;
+}
+
+.lisdokter a{
+    border-radius: 20px;
+    background-color: #B4D260;
+    text-decoration: none;
+    color: black;
+    text-align:end ;
+    padding: 2px 20px 5px;
+}
+
+.lisdokter a:hover{
+    background-color: #fff;
+}
+
+.tutor{
+    background-color: #F5F9EB;
+    height: 50vh;
+    padding: 0 5% 0;
+        
 }
