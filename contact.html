@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="fontawesome/all.js"></script>
+    <title>Document</title>
+    <script>
+      function terkirim(){
+        alert("Terimakasih pesanmu telah terkirim")
+        location.reload();
+      }
+    </script>
+</head>
+<body>
+        <div class>
+            <div class="container">
+                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+                    <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+                      <img src="src/logo.png" class="logo" alt="logo">
+                    </a>
+                  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <div style="border: 1px solid black;display: flex; align-items: center;padding: 5px 9px 5px; border-radius: 30px; width:400px;margin: 15px;">
+                    <input class="search-bar" type="search" placeholder="Cari dokter, Klinik hewan">
+                    <button type="submit" style="border: 0;border-radius: 50%;width: 40px;height: 40px;background: #a3be58;cursor: pointer;"> <img src="src/search.png" alt="" style="width: 20px; display: flex; margin-left: 3px;"></button>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                    <li><a href="home.html"><button class="HeaderBut">Beranda</button></a></li>
+                    <li><a href="aboutus.html"><button class="HeaderBut">Tentang Kami</button></a></li>
+                    <li><a href="artikel.html"><button class="HeaderBut">Artikel</button></a></li>
+                    <li><a href="contact.html"><button class="HeaderBut">Hubungi Kami</button></a></li>
+                    <li style="margin-left: 150px;"><i class="bi bi-person-circle" style="font-size: 40px;color: #acacac;"></i></li>
+                    </div>
+                  </ul>
+                </header>
+              </div>
+
+              <section class="kontakus">
+                <div class="container">
+                    <div class="contact">
+                    <div class="contactinf">
+                        <div class="contactinf-1">
+                        <p>Contact Information</p>
+                        <p>Say something to start a live chat!</p>
+                        </div>
+                        <div class="contactinf-2">
+                            <div>
+                            <p><i class="bi bi-telephone-outbound-fill">+</i></p>
+                            <p><i class="bi bi-envelope-fill"></i></p>
+                            <p><i class="bi bi-geo-alt-fill"></i></p>
+                            </div>
+                            <div>
+                                <p>0123456789</p>
+                                <p>halopet@gmail.com</p>
+                                <p>Indonesia</p>
+                            </div>
+                        </div>
+                            <div class="contact-icon" style="align-items: end;">
+                                <a href="#"><i class="fa fa-facebook"></i> </a>
+                                <a href="#"><i class="fa fa-twitter"></i> </a>
+                                <a href="#"><i class="fa fa-instagram"></i> </a>
+                              </div>
+                    </div>
+                    <div class="contactinp">
+                        <div>
+                        <label for="">Nama Depan</label>
+                        <input type="text" name="" id="">
+                        </div>
+                        <div>
+                        <label for="">Nama Belakang</label>
+                        <input type="text" name="" id="">
+                        </div>
+                        <div>
+                        <label for="">Email</label>
+                        <input type="text" name="" id="">
+                        </div>
+                        <div>
+                        <label for="">No. Telpon</label>
+                        <input type="text" name="" id="">
+                        </div>
+                        <div class="feedback">
+                        <label for="">Kritik dan Saran</label>
+                        <textarea name="feedback" id="" cols="30" rows="6"></textarea>
+                        </div>
+                        <div class="feedbutton">
+                        <button class="kirimbutton" style="font-size: 17px;" onclick="terkirim()">Kirim</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </section>
+</body>
+</html>
