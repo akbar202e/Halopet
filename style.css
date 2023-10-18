@@ -447,8 +447,8 @@ li > i:hover{
 
 .artikel{
     background-color: #F2FFE24D;
-    height: 100vh;
-    padding: 40px 0 700px;
+    height: max-content;
+    padding: 40px 0 50px;
 }
 
 .artikel .container img{
@@ -466,6 +466,7 @@ li > i:hover{
     flex-direction: column;
     gap: 30px;
     padding: 0 60px 0;
+    text-align: justify;
 }
 .auth{
     
@@ -480,8 +481,9 @@ li > i:hover{
 
 .vaksin{
     background-color: #F2FFE24D;
-    height: 100vh;
-    padding: 40px 0 700px;
+    height: max-content;
+    padding: 40px 0 10px;
+    margin-bottom: 30px;
 }
 
 .vaksin label{
@@ -756,6 +758,168 @@ li > i:hover{
     background: #9db657;
 }
 
+.chatt {
+	height: 100%;
+	margin-left: 3cm;
+	margin-right: 3cm;
+}
+
+.chat {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.input-group-append:hover{
+    background: #717171;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.attach_btn {
+	border-radius: 15px 0 0 15px !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	border: 0 !important;
+	color: white !important;
+	cursor: pointer;
+}
+
+.send_btn {
+	border-radius: 0 15px 15px 0 !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	border: 0 !important;
+	color: white !important;
+	cursor: pointer;
+}
+
+.user_img {
+	height: 60px;
+	width: 60px;
+	border: 1.5px solid #f5f6fa;
+}
+
+.user_img_msg {
+	height: 40px;
+	width: 40px;
+	border: 1.5px solid #f5f6fa;
+}
+
+.user_info {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+
+.user_info span {
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+
+.msg_cotainer {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color: #b5c97e;
+	padding: 10px;
+	position: relative;
+}
+
+.msg_cotainer:hover{
+    background-color: #9ab845;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.msg_cotainer_send {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+    background-color: #dfdfdf;
+	padding: 10px;
+	position: relative;
+}
+
+.msg_cotainer_send:hover{
+    background-color: #b9b9b9;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.msg_time {
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 10px;
+}
+
+.msg_time_send {
+	position: absolute;
+	right: 0;
+	bottom: -15px;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 10px;
+}
+
+.msg_head {
+	position: relative;
+}
+
+#action_menu_btn {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.action_menu {
+	z-index: 1;
+	position: absolute;
+	padding: 15px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border-radius: 15px;
+	top: 30px;
+	right: 15px;
+	display: none;
+}
+
+.action_menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.action_menu ul li {
+	width: 100%;
+	padding: 10px 15px;
+	margin-bottom: 5px;
+}
+
+.action_menu ul li i {
+	padding-right: 10px;
+}
+
+.action_menu ul li:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.chatdokter .container{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    padding: 10px 35px 10px;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.11);"
+}
+
 .judul{
     background: rgba(179, 210, 96, 0.40);
     flex-shrink: 0;
@@ -891,10 +1055,10 @@ li > i:hover{
   }
   
   .custom-range::-moz-range-thumb {
-    background-color: #198754; /* Your green color here */
+    background-color: #198754;
   }
   
   .custom-range::-ms-thumb {
-    background-color: #198754; /* Your green color here */
+    background-color: #198754;
   }
   
