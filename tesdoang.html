@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      /* Style the button that will open the dropdown */
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#item1">Item 1</a>
+            <a href="#item2">Item 2</a>
+            <a href="#item3">Item 3</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -451,7 +451,7 @@ li > i:hover{
     padding: 40px 0 700px;
 }
 
-.container img{
+.artikel .container img{
     display: flex;
     align-self: center;
 }
@@ -477,3 +477,424 @@ li > i:hover{
 .container p{
     font-size: 14px;
 }
+
+.vaksin{
+    background-color: #F2FFE24D;
+    height: 100vh;
+    padding: 40px 0 700px;
+}
+
+.vaksin label{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.vaksin input, .vaksin select{
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.vaksingo{
+    margin-top: -20px;
+    border-radius: 30px;
+    padding: 4px;
+    text-align: center;
+    background: #E1EDBF;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    align-items: center;
+}
+
+.vaksingo:hover{
+    cursor: pointer;   
+}
+
+.kontakus{
+    background: #F2FFE24D;
+    height: 100vh;
+}
+
+.contact{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 30px 0px rgba(90, 132, 22, 0.15);
+}
+
+.contactinf{
+    padding: 40px;
+    background:#5A8416B2;
+    border-radius: 10px;
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+}
+
+.contactinf div{
+    height: 30%;
+}
+
+.contactinf-1 p:nth-child(1){
+    
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;line-height: 0px;
+    margin-bottom: 35px;
+}
+
+.contactinf-1 p:nth-child(2){
+    color: #C9C9C9;
+    font-size: 18px;
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0px;
+    margin-bottom: 35px;
+}
+
+.contactinf-2{
+    display: flex;
+    gap: 20px;
+}
+
+.contactinf-2 p{
+    color: #fff;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+.contactinp{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.contactinp div{
+    
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinp label{
+    font-size: 13px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactinp input{
+    border: none;
+    border-bottom: 2px solid black;
+    height: 80%;
+    margin-bottom: -100%;
+}
+
+.contactinp textarea:focus, input:focus{
+    outline: none;
+}
+
+.contactinp .feedback{
+    width: 100%;
+    height: 50%;
+}
+
+.feedback textarea{
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+
+.contactinp .feedbutton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    padding: 0;
+    margin-top: -30px;
+}
+
+.kirimbutton{
+    border: none;
+    padding: 1% 20px 35px;
+    width: 90px;
+    height: 35px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #B4D260;
+    border-radius: 30px;
+  }
+
+.contact-icon {
+    display: flex;
+    flex-direction: row;
+    font-size: 27px;
+    gap: 30px;
+} 
+
+.contact-icon I{
+    color: #fff;
+} 
+
+.groom .container div{
+    
+    width: 50%;
+}
+
+.groom img{
+    width: 110%;
+}
+
+.groom p:nth-child(1)
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.groom p:nth-child(2)
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.groomingform{
+    height: 90vh;
+}
+
+.groomingform .formdesc{
+    margin: 0px 0px 10px;
+    height: 20%;
+    width: 100%;
+    padding: 10px 30px 0;
+    background:#b4d165;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formdesc p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.groomingform .formisi{
+    height: 60%;
+}
+
+.groomingform .formbutton{
+    height: 20%;
+}
+
+.formisi div{
+    width: 50%;
+    padding: 30px;
+}
+
+.formisi label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.formisi input, .vaksin select{
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.formbutton{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+.formbutton button{
+    border: none;
+    padding: 0 20px 5px;
+    width: 120px;
+    height: 38px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+
+.formbutton .batal{
+    border: 1px solid #000;
+    background: none;
+    color: black;
+}
+
+.formbutton .batal:hover{
+    transition: all 0.2s ease-in-out;
+    background: #00000034;
+}
+
+.formbutton .kirim{
+    background: #B4D260;
+}
+
+.formbutton .kirim:hover{
+    transition: all 0.2s ease-in-out;
+    background: #9db657;
+}
+
+.judul{
+    background: rgba(179, 210, 96, 0.40);
+    flex-shrink: 0;
+    padding: 20px 0 10px;
+    margin-bottom: 35px;
+}
+
+.judul p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(90, 132, 22, 0.85);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}   
+
+.janji{
+    height: max-content;
+    margin-bottom: 30px;
+}
+
+
+.filter{
+    width: 40%;
+    height: max-content;
+    border-radius: 20px;
+    background: #F5F9EB;
+}
+
+.fil1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 35px;
+    padding: 25px 25px 15px;
+}
+
+.fil11{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fil11 p:nth-child(1)
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.fil11 p:nth-child(2)
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6e6e6e;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.fil2{
+    padding: 25px 25px 15px;
+}
+
+.fil2 input,label{
+    zoom: 140%;
+}
+
+.fil2 label{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.filharga{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filharga p{
+    background: rgba(179, 210, 96, 0.40);
+    width: 40%;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    padding: 5px 0px 5px;
+}
+
+.result{
+    width: 60%;
+    height: 500px;
+    align-self: center;
+    border-radius: 20px;
+    background: #F5F9EB;
+}
+
+.result select{
+    background: rgba(179, 210, 96, 0.40);
+    border: none;
+    padding: 5px 10px 5px;
+    font-weight: 500;
+}
+
+.result .res11 i{
+    color: #198754;
+    font-size: 25px;
+}
+
+.res2{
+    height: 70%;
+}
+
+.res22 p{
+    margin: -5px 0 0px;
+    color: #000;
+    font-weight: 550;
+}
+
+.res3 h5{
+    background: #B4D260;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.res3 h5:hover, img:hover{
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-range::-webkit-slider-thumb {
+    background-color: #198754;
+  }
+  
+  .custom-range::-moz-range-thumb {
+    background-color: #198754; /* Your green color here */
+  }
+  
+  .custom-range::-ms-thumb {
+    background-color: #198754; /* Your green color here */
+  }
+  

@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="fontawesome/all.js"></script>
     <title>Document</title>
+    <script>
+        function terkirim(){
+            alert("Pesanan Terkirim")
+            location.reload();
+        }
+    </script>
 </head>
 <body>
         <div class>
@@ -24,7 +30,7 @@
                     </div>
                     <div style="display: flex; align-items: center;">
                     <li><a href="home.html"><button class="HeaderBut">Beranda</button></a></li>
-                    <li><a href=""><button class="HeaderBut">Tentang Kami</button></a></li>
+                    <li><a href="aboutus.html"><button class="HeaderBut">Tentang Kami</button></a></li>
                     <li><a href="artikel.html"><button class="HeaderBut">Artikel</button></a></li>
                     <li><a href="contact.html"><button class="HeaderBut">Hubungi Kami</button></a></li>
                     <li style="margin-left: 150px;"><i class="bi bi-person-circle" style="font-size: 40px;color: #acacac;"></i></li>
@@ -32,15 +38,52 @@
                   </ul>
                 </header>
               </div>
-        <section id="about">
-            <div class="about">
-                <p>HaloPet</p>
-                <p>Your Trusted Partner in Pet Health</p>
-                <br>
-                <p>HaloPet adalah platform kesehatan hewan peliharaan yang inovatif, dirancang untuk memudahkan pemilik hewan peliharaan dalam merawat dan memantau kesehatan hewan peliharaan mereka. Melalui HaloPet, pengguna dapat dengan mudah terhubung dengan dokter hewan dan mengakses layanan konsultasi online yang cepat. Selain itu, platform ini menyediakan aplikasi pemantauan kesehatan yang memungkinkan pengguna untuk memantau kondisi hewan peliharaan mereka, mengatur pengingat perawatan rutin, dan mencari klinik hewan terdekat. Dengan kombinasi fitur-fitur yang komprehensif dan kemudahan penggunaan, "HaloPet" adalah teman setia pemilik hewan peliharaan dalam menjaga kesehatan dan kebahagiaan hewan peliharaan mereka.</p>
-            </div>
-        </section>
+
+              <section>
+                <div class="vaksin">
+                    <div class="container">
+                    <div style="display: flex;justify-content: center;">
+                    <div class="vaksingo">
+                        <div style="background: #fff;border-radius: 30px;padding: 10px 10px 5px;">
+                        <h6>Antar Jemput</h6>
+                        </div>
+                        <div style="padding: 10px 20px 5px;">
+                        <h6>Datang Ke Klinik</h6>
+                        </div>
+                    </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column;padding: 0 20% 0;gap: 3px;margin-top: 20px;">
+                    <label for="floatingInput">Klinik</label>
+                    <input class="form-control" type="text" placeholder="Cari klinik terdekat">
+                    <label for="floatingInput">Tanggal</label>
+                    <input class="form-control" type="date" placeholder="Input tanggal">
+                    <label for="floatingInput">Waktu</label>
+                    <input class="form-control" type="time" placeholder="Input waktu">
+                    <label for="floatingInput">Alamat</label>
+                    <input class="form-control" type="text" placeholder="Input alamat anda">
+                    <label for="">Pet</label>
+                    <input class="form-control" type="text" placeholder="Input jenis hewan peliharaan">
+                    <label for="">Tipe vaksin</label>
+                    <select class="form-select" name="" id="">
+                        <option value="1">Bordetella Rp. 200,000</option>
+                        <option value="2">Feline calicivirus Rp. 250,000</option>
+                        <option value="3">Distemper Rp. 50,000</option>
+                    </select>
+                    <label for="">Cargo</label>
+                    <select class="form-select" name="" id="">
+                        <option value="1">Disediakan Pemilik</option>
+                        <option value="2">Disediakan Klinik</option>
+                    </select>
+                    <div style="display: flex;justify-content: right;margin-top: 20px;">
+                    <button class="homebutton" style="font-size: 17px;" onclick="terkirim()">Pesan Sekarang</button>
+                    </div>
+                    </div>
+                </div>
+              </section>
+
+
         <footer>
+            <div class="container">
             <div class="footer">
               <div class="row">
                   <div class="footer-col">
@@ -73,11 +116,12 @@
               </div>
           </div>
           <p>Hubungi Kami!</p>
-          <div class="contact-icon">
+          <div class="social-icons">
             <a href="#"><i class="fa fa-facebook"></i> </a>
             <a href="#"><i class="fa fa-twitter"></i> </a>
             <a href="#"><i class="fa fa-instagram"></i> </a>
           </div>
+            </div>
           </footer>
 </body>
 </html>
